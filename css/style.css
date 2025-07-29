@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/258d0f77-2241-4282-b613-8354a7675d1a/web/BR-pt-20250721-TRIFECTA-perspective_a23997f6-e1de-403d-8eb6-d2981273846b_large.jpg) ;
+    background-position: top center;
+    background-size: cover;
+}
+#heading {
+    background: rgba(0,0,0,0.7);
+    
+}
+#heading div{
+    width: 90%; /*essa div tem 80% do navegador*/
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+#heading .h1{
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 15px 0;
+    
+}
+
+#heading a{
+    color: white;
+    text-decoration: none;
+    font-family: sans-serif;
+}
